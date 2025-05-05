@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fbeff1 0%, #e6d4d9 100%);
+    min-height: 100vh;
+    color: #3f2e23;
+}
+
+.future-page {
+    padding: 3rem 2rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 10px #00000015;
+    backdrop-filter: blur(4px);
+    line-height: 1.7;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    color: #5c2b2e;
+    margin-bottom: 0.5rem;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #7b4a4e;
+    margin-bottom: 2rem;
+}
+
+section {
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #513539;
+    margin-bottom: 1rem;
+    border-left: 4px solid #ccbbbeeb;
+    padding-left: 1rem;
+}
+
+ol {
+    padding-left: 1.5rem;
+}
+
+ol li {
+    margin-bottom: 0.8rem;
+    font-size: 1.05rem;
+}
+
+.inspiration-section {
+    background-color: #f0e7e9b3;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px #00000010;
+}
+
+.inspiration-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.inspiration-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.inspiration-paragraph {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+
+.meme-wrapper {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.inspiration-meme {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #00000010;
+    border: 1px solid #e3d7d9;
+    transition: transform 0.2s ease;
+}
+
+.inspiration-meme:hover {
+    transform: scale(1.02);
+}
+
+.tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+.tool-card {
+    background-color: #f6ecee;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 110px;
+    text-align: center;
+    box-shadow: 0 2px 6px #00000010;
+    transition: transform 0.2s ease;
+}
+
+.tool-card:hover {
+    transform: scale(1.05);
+}
+
+.tool-card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+}
+

@@ -1,0 +1,94 @@
+.about-page {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+    min-height: 100vh;
+    color: #3d1f1f;
+    line-height: 1.6;
+}
+
+p {
+   font-size:  1.2rem;
+}
+
+.about-page::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #dec7c7;
+    opacity: 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.about-photo {
+    width: 240px;
+    height: auto;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px #00000033;
+    flex-shrink: 0;
+}
+
+.about-content>div {
+    flex: 1;
+    min-width: 280px;
+    max-width: 700px;
+    text-align: justify;
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3 {
+    color: #4b3e2a;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 3px #0000001a;
+}
+
+.about-page h1 {
+    font-size: 2.3rem;
+}
+
+.about-page h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.about-page h3 {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+}
+
+.repo-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.repo-button {
+    background-color: #d7bcbc;
+    color: #5c3434;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.repo-button:hover {
+    background-color: #eac2c2;
+    transform: translateY(-2px);
+}
