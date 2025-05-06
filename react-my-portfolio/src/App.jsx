@@ -1,23 +1,27 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import AboutMe from './pages/AboutMe';
+import MyCity from './pages/MyCity';
+import MyFuture from './pages/MyFuture';
+import './App.css';
 
-import AboutMe from "./pages/AboutMe";
-import MyCity from "./pages/MyCity";
-import MyFuture from "./pages/MyFuture";
-
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-
-export default function App() {
+function App() {
   return (
-    <Router>
+    <div className="app-container">
       <Header />
-      <Routes>
-        <Route path="/" element={<AboutMe />} />
-        <Route path="/city" element={<MyCity />} />
-        <Route path="/future" element={<MyFuture />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Navigate to="/about" />} />
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/my-city" element={<MyCity />} />
+          <Route path="/my-future" element={<MyFuture />} />
+        </Routes>
+      </main>
       <Footer />
-    </Router>
+    </div>
   );
 }
+
+export default App;
