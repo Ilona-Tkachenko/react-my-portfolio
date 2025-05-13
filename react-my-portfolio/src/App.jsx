@@ -12,7 +12,7 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/about" element={<AboutMe />} />
+          <Route path="/react-my-portfolio" element={<AboutMe />} />
           <Route path="/my-city" element={<MyCity />} />
           <Route path="/my-future" element={<MyFuture />} />
         </Routes>
