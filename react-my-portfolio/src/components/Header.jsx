@@ -10,17 +10,32 @@ export default function Header() {
         <nav>
           <ul className="nav-list">
             <li>
-              <NavLink to="/about" className={({ isActive }) => isActive ? "active-link" : undefined}>
+              <NavLink
+                to="/react-my-portfolio"
+                className={({ isActive }) =>
+                  isActive ? "active-link" : undefined
+                }
+              >
                 Про мене
               </NavLink>
             </li>
             <li>
-              <NavLink to="/my-city" className={({ isActive }) => isActive ? "active-link" : undefined}>
+              <NavLink
+                to="/my-city"
+                className={({ isActive }) =>
+                  isActive ? "active-link" : undefined
+                }
+              >
                 Моє місто
               </NavLink>
             </li>
             <li>
-              <NavLink to="/my-future" className={({ isActive }) => isActive ? "active-link" : undefined}>
+              <NavLink
+                to="/my-future"
+                className={({ isActive }) =>
+                  isActive ? "active-link" : undefined
+                }
+              >
                 Мій розвиток
               </NavLink>
             </li>
