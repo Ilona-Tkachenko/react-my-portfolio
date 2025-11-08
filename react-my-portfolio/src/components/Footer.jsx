@@ -22,7 +22,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://t.me/Ilonkkkaa"
+          href="https://t.me/mwnlkk"
           target="_blank"
           rel="noreferrer"
           className="footer-link"
@@ -36,7 +36,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://www.instagram.com/iloskaa.a?igsh=MTMwNjB6eXZpeTB0OQ=="
+          href="https://www.instagram.com/mwnlkk?igsh=c293NGgzdnRpa3M0"
           target="_blank"
           rel="noreferrer"
           className="footer-link"
